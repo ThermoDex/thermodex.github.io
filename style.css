@@ -1,0 +1,145 @@
+/* Paddock Stats website. Colours follow the app: dark hero, orange accent. */
+:root {
+  color-scheme: light dark;
+  --text: #1d1d1f;
+  --secondary: #5f5f64;
+  --background: #ffffff;
+  --card: #f5f5f7;
+  --border: rgba(0, 0, 0, 0.1);
+  /* Same contrast-checked orange as the app's accent colour (5.2:1 on white). */
+  --accent: #c2410c;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text: #f5f5f7;
+    --secondary: #a1a1a6;
+    --background: #000000;
+    --card: #1c1c1e;
+    --border: rgba(255, 255, 255, 0.12);
+    /* 7.5:1 on the dark card colour. */
+    --accent: #fb923c;
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font: 17px/1.55 -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: var(--text);
+  background: var(--background);
+}
+
+a { color: var(--accent); }
+a:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+
+.site-header {
+  border-bottom: 1px solid var(--border);
+}
+
+.site-header nav,
+main,
+.site-footer {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.site-header nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  min-height: 60px;
+}
+
+.site-header .brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-right: auto;
+  font-weight: 700;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.site-header .brand img {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+}
+
+.site-header nav a:not(.brand) {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+main { padding-top: 32px; padding-bottom: 48px; }
+
+h1 { font-size: 34px; line-height: 1.15; margin: 0 0 12px; }
+h2 { font-size: 22px; margin: 2em 0 0.5em; }
+h3 { font-size: 18px; margin: 1.5em 0 0.25em; }
+
+.updated, .lead { color: var(--secondary); }
+.lead { font-size: 20px; }
+
+/* Dark hero on the home page, matching the app's season card. */
+.hero {
+  margin: 0 -20px 32px;
+  padding: 48px 20px;
+  border-radius: 24px;
+  text-align: center;
+  color: #ffffff;
+  background: linear-gradient(135deg, #111827 0%, #4a2420 55%, #7c2d12 100%);
+}
+
+.hero img {
+  width: 128px;
+  height: 128px;
+  border-radius: 28px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.45);
+}
+
+.hero h1 { margin-top: 20px; }
+.hero .lead { color: rgba(255, 255, 255, 0.8); }
+.hero .badge {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 8px 16px;
+  border-radius: 999px;
+  font-weight: 600;
+  color: #111827;
+  background: #fdba74;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 12px;
+  padding: 0;
+  list-style: none;
+}
+
+.features li {
+  padding: 16px;
+  border-radius: 16px;
+  background: var(--card);
+}
+
+.features strong { display: block; margin-bottom: 4px; }
+
+.language-switch { margin: 0 0 24px; }
+
+hr {
+  margin: 48px 0;
+  border: 0;
+  border-top: 1px solid var(--border);
+}
+
+.site-footer {
+  padding-top: 24px;
+  padding-bottom: 40px;
+  border-top: 1px solid var(--border);
+  font-size: 14px;
+  color: var(--secondary);
+}
