@@ -1,0 +1,197 @@
+{
+    "version": 1,
+    "sources": [
+        {
+            "id": "formula1",
+            "name": "Formula 1",
+            "tier": 1,
+            "homepage": "https://www.formula1.com",
+            "feeds": ["https://www.formula1.com/en/latest/all.xml"]
+        },
+        {
+            "id": "fia",
+            "name": "FIA",
+            "tier": 1,
+            "homepage": "https://www.fia.com",
+            "feeds": ["https://www.fia.com/rss/press-release"]
+        },
+        {
+            "id": "the-race",
+            "name": "The Race",
+            "tier": 2,
+            "homepage": "https://www.the-race.com",
+            "feeds": ["https://www.the-race.com/category/formula-1/feed/"]
+        },
+        {
+            "id": "autosport",
+            "name": "Autosport",
+            "tier": 2,
+            "homepage": "https://www.autosport.com",
+            "feeds": ["https://www.autosport.com/rss/f1/news/"]
+        },
+        {
+            "id": "motorsport-com",
+            "name": "Motorsport.com",
+            "tier": 2,
+            "homepage": "https://www.motorsport.com",
+            "feeds": [
+                "https://www.motorsport.com/rss/f1/news/",
+                "https://de.motorsport.com/rss/f1/news/",
+                "https://it.motorsport.com/rss/f1/news/",
+                "https://es.motorsport.com/rss/f1/news/",
+                "https://fr.motorsport.com/rss/f1/news/",
+                "https://nl.motorsport.com/rss/f1/news/"
+            ]
+        },
+        {
+            "id": "bbc-sport",
+            "name": "BBC Sport",
+            "tier": 2,
+            "homepage": "https://www.bbc.com/sport/formula1",
+            "feeds": ["https://feeds.bbci.co.uk/sport/formula1/rss.xml"]
+        },
+        {
+            "id": "sky-sports",
+            "name": "Sky Sports F1",
+            "tier": 2,
+            "homepage": "https://www.skysports.com/f1",
+            "feeds": ["https://www.skysports.com/rss/12433"]
+        },
+        {
+            "id": "racefans",
+            "name": "RaceFans",
+            "tier": 2,
+            "homepage": "https://www.racefans.net",
+            "feeds": ["https://www.racefans.net/feed/"]
+        },
+        {
+            "id": "the-guardian",
+            "name": "The Guardian",
+            "tier": 2,
+            "homepage": "https://www.theguardian.com/sport/formulaone",
+            "feeds": ["https://www.theguardian.com/sport/formulaone/rss"]
+        },
+        {
+            "id": "espn",
+            "name": "ESPN",
+            "tier": 2,
+            "homepage": "https://www.espn.com/f1/",
+            "feeds": ["https://www.espn.com/espn/rss/f1/news"]
+        },
+        {
+            "id": "racer",
+            "name": "RACER",
+            "tier": 2,
+            "homepage": "https://racer.com/f1/",
+            "feeds": ["https://racer.com/f1/feed/"]
+        },
+        {
+            "id": "motorsport-total",
+            "name": "Motorsport-Total.com",
+            "tier": 3,
+            "homepage": "https://www.motorsport-total.com",
+            "feeds": [
+                "https://www.motorsport-total.com/rss_f1.xml",
+                "https://www.formel1.de/rss/news/feed.xml"
+            ]
+        },
+        {
+            "id": "planetf1",
+            "name": "PlanetF1",
+            "tier": 3,
+            "homepage": "https://www.planetf1.com",
+            "feeds": ["https://www.planetf1.com/rss"]
+        },
+        {
+            "id": "racingnews365",
+            "name": "RacingNews365",
+            "tier": 3,
+            "homepage": "https://racingnews365.com",
+            "feeds": ["https://racingnews365.com/feed/news.xml"]
+        },
+        {
+            "id": "crash",
+            "name": "Crash.net",
+            "tier": 3,
+            "homepage": "https://www.crash.net/f1",
+            "feeds": ["https://www.crash.net/rss/f1"]
+        },
+        {
+            "id": "motorsport-week",
+            "name": "Motorsport Week",
+            "tier": 3,
+            "homepage": "https://www.motorsportweek.com",
+            "feeds": ["https://www.motorsportweek.com/feed/"]
+        },
+        {
+            "id": "speedcafe",
+            "name": "Speedcafe",
+            "tier": 3,
+            "homepage": "https://www.speedcafe.com",
+            "feeds": ["https://www.speedcafe.com/category/f1/feed/"]
+        },
+        {
+            "id": "corriere-dello-sport",
+            "name": "Corriere dello Sport",
+            "tier": 3,
+            "homepage": "https://www.corrieredellosport.it/formula-1",
+            "feeds": ["https://www.corrieredellosport.it/rss/formula-1"]
+        },
+        {
+            "id": "marca",
+            "name": "Marca",
+            "tier": 3,
+            "homepage": "https://www.marca.com/motor/formula1.html",
+            "feeds": ["https://www.marca.com/rss/motor/formula1.xml"]
+        },
+        {
+            "id": "joe-saward",
+            "name": "Joe Saward",
+            "tier": 3,
+            "homepage": "https://joesaward.wordpress.com",
+            "feeds": ["https://joesaward.wordpress.com/feed/"]
+        },
+        {
+            "id": "gpfans",
+            "name": "GPFans",
+            "tier": 4,
+            "homepage": "https://www.gpfans.com/en/",
+            "feeds": ["https://www.gpfans.com/en/rss.xml"]
+        },
+        {
+            "id": "formula-passion",
+            "name": "FormulaPassion",
+            "tier": 4,
+            "homepage": "https://www.formulapassion.it",
+            "feeds": ["https://www.formulapassion.it/feed"]
+        },
+        {
+            "id": "f1-fansite",
+            "name": "F1-Fansite",
+            "tier": 4,
+            "homepage": "https://www.f1-fansite.com",
+            "feeds": ["https://www.f1-fansite.com/feed/"]
+        },
+        {
+            "id": "f1oversteer",
+            "name": "F1 Oversteer",
+            "tier": 4,
+            "homepage": "https://www.f1oversteer.com",
+            "feeds": ["https://www.f1oversteer.com/feed/"]
+        },
+        {
+            "id": "sportskeeda",
+            "name": "Sportskeeda",
+            "tier": 4,
+            "homepage": "https://www.sportskeeda.com/f1",
+            "feeds": ["https://www.sportskeeda.com/feed/f1"]
+        },
+        {
+            "id": "essentiallysports",
+            "name": "EssentiallySports",
+            "tier": 4,
+            "homepage": "https://www.essentiallysports.com/category/f1/",
+            "feeds": ["https://www.essentiallysports.com/category/f1/feed/"]
+        }
+    ]
+}
